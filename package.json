@@ -1,0 +1,35 @@
+{
+  "name": "my-gatsby-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "my-gatsby-site",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mantine/core": "7.17.4",
+    "@mantine/hooks": "7.17.4",
+    "gatsby": "^5.13.3",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.26",
+    "@types/react": "^18.2.65",
+    "@types/react-dom": "^18.2.21",
+    "postcss-preset-mantine": "1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "^5.4.2"
+  },
+  "packageManager": "yarn@4.8.1"
+}
