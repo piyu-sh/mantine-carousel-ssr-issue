@@ -1,5 +1,5 @@
+import { Anchor, Text, Title } from "@mantine/core";
 import React from "react";
-import { Title, Text, Anchor } from "@mantine/core";
 import * as classes from "./Welcome.module.css";
 
 export function Welcome() {
@@ -28,3 +28,4 @@ export function Welcome() {
     </>
   );
 }
+

@@ -2165,6 +2165,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mantine/carousel@npm:^7.17.4":
+  version: 7.17.4
+  resolution: "@mantine/carousel@npm:7.17.4"
+  peerDependencies:
+    "@mantine/core": 7.17.4
+    "@mantine/hooks": 7.17.4
+    embla-carousel-react: ">=7.0.0"
+    react: ^18.x || ^19.x
+    react-dom: ^18.x || ^19.x
+  checksum: 10c0/bd518fae7bdfb8a465b09c0be0912905a0bd781d0bc89bee117b3c7b43c30b949ed82e8c93aceb1701f04fc2cb489f67511e463519523c2d1636f34313c8db8a
+  languageName: node
+  linkType: hard
+
 "@mantine/core@npm:7.17.4":
   version: 7.17.4
   resolution: "@mantine/core@npm:7.17.4"
@@ -5813,6 +5826,34 @@ __metadata:
   version: 1.4.576
   resolution: "electron-to-chromium@npm:1.4.576"
   checksum: 10c0/b0b9e7ba803bf93ffac9cb830ed2b0e0eb07f20066127065f9ab9e08e4e6a5812040e03d76f6ee9bc59e03fb938fd414e83d4883b29111303e9e88633cf2dce4
+  languageName: node
+  linkType: hard
+
+"embla-carousel-react@npm:^8.6.0":
+  version: 8.6.0
+  resolution: "embla-carousel-react@npm:8.6.0"
+  dependencies:
+    embla-carousel: "npm:8.6.0"
+    embla-carousel-reactive-utils: "npm:8.6.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.1 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+  checksum: 10c0/461b0c427a6fca62e730c7b39d08e9c55b01a2138c173d5b9ebf77ec92092a900b45ac384731c77382b48d5d65946994d3abba6e9899a66d6e16f8ddf191ed1c
+  languageName: node
+  linkType: hard
+
+"embla-carousel-reactive-utils@npm:8.6.0":
+  version: 8.6.0
+  resolution: "embla-carousel-reactive-utils@npm:8.6.0"
+  peerDependencies:
+    embla-carousel: 8.6.0
+  checksum: 10c0/33d07e6df4d8dec9b4fc95858838ea2d5e5df078039c05b2a342c05ba4979d8d18564a1c607da445fed744daf969a0b5a90124ce487a854e86ced6f0458b51e9
+  languageName: node
+  linkType: hard
+
+"embla-carousel@npm:8.6.0":
+  version: 8.6.0
+  resolution: "embla-carousel@npm:8.6.0"
+  checksum: 10c0/f4c598e7be28b70340d31ffd2bebb2472db370b0c81d9b089bf9555cf618695f35dc4a0694565c994c9ab972731123063f945aa09ff485df0df761d79c6a08ef
   languageName: node
   linkType: hard
 
@@ -9793,11 +9834,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-gatsby-site@workspace:."
   dependencies:
+    "@mantine/carousel": "npm:^7.17.4"
     "@mantine/core": "npm:7.17.4"
     "@mantine/hooks": "npm:7.17.4"
     "@types/node": "npm:^20.11.26"
     "@types/react": "npm:^18.2.65"
     "@types/react-dom": "npm:^18.2.21"
+    embla-carousel-react: "npm:^8.6.0"
     gatsby: "npm:^5.13.3"
     gatsby-plugin-postcss: "npm:^6.13.1"
     postcss: "npm:^8.4.35"
